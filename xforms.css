@@ -1,0 +1,135 @@
+/*todos os elementos da página*/
+* {
+    box-sizing: content-box;
+}
+
+/*zerando margem intern e externa e também a borda.*/
+*{
+    margin: 0px;
+}
+
+/*definindo os elementos contidos no início da página*/
+.texto {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(47, 187, 117);
+    color:rgb(255, 255, 255);
+    font-size:45px; 
+    font-weight:bold;
+    padding: 40px;
+    margin:0%;
+    border: 0px;
+}
+
+/*formatação de tamanho, cor e posição do espaço onde estão as imagens*/
+.divpet{
+    width: 100px;
+    height: 440px;
+    position: relative;
+    margin-left: auto;
+    background-color: rgb(214, 243, 214);
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 6px;
+}
+
+/*adicionando elementos para o texto e fixando na posição correta*/
+#projeto {
+    font-family: sans-serif;
+    text-align:center;
+    background-color: rgb(214, 243, 214);
+    color:rgb(0, 0, 0);
+    font-size:24px; 
+    font-weight: normal;
+    width: 1220px;
+    height: 400px;
+    margin-left: 0px;
+    margin-right: auto;
+    position: absolute;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 90px;
+    padding-inline: 15px;
+}
+
+/*colocando elementos para fixar as imagens */
+.img{
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    border-color:black;
+    border-style: double;
+    width: 90px;
+    height:90px;
+    text-align: center;
+    padding: 5px;
+}
+
+/*formatação geral de tamanho do espaço onde está localizado os botões que levam para outras páginas*/
+#botoes{
+    width: 1209px;
+    height: 80px;
+    background-color: rgb(214, 243, 214);
+    padding-right: 70px;
+    padding-left: 70px;
+    
+}
+
+/*formatação geral do botão animais disponíves*/
+#animaldisponivel {
+    font-size: 1.5em;
+    background: rgb(47, 187, 117);
+    border: 0;
+    margin-bottom: 3em;
+    color: rgb(255, 255, 255);
+    padding: 0.4em 0.4em;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    transform: translate(-50%, -50%);
+    margin-left: 40%;
+    margin-top: 2.5%;
+    margin-right: -10%;
+}
+
+/*formatação do botão quero adotar*/
+#queroadotar {
+    font-size: 1.5em;
+    background: rgb(47, 187, 117);
+    border: 0;
+    margin-bottom: 3em;
+    color: rgb(255, 255, 255);
+    padding: 0.4em 0.4em;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    transform: translate(-50%, -50%);
+    margin-left: 10%;
+    margin-top: 3.5%;
+    margin-right: -10%;
+}
+
+/*formatação para o nome da institutição parceira*/
+#ONG{ 
+font-family:Arial, Helvetica, sans-serif;
+text-align: center;
+background-color: rgb(255,255, 255);
+color:rgb(47, 187, 117);
+font-size:15px; 
+font-weight:bold;
+padding-right: 25px;
+margin-top: 20px;
+}
+
+/*formatação para o nome da institutição parceira*/
+#alunos{ 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size:15px; 
+    font-weight:bold;
+    padding: 10px;
+    margin:0%;
+    border: 0px;
+    padding-right: 25px;
+    }

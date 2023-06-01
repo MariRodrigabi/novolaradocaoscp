@@ -20,8 +20,17 @@
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
-    color: rgb(255, 255, 255);
-    margin-left: 7%;
+    text-align: center;
+    background-color: rgb(47, 187, 117);
+    color:rgb(255, 255, 255);
+    font-size:45px; 
+    font-weight:bold;
+    width: 889px;
+    height: 105px;
+    margin-left: 460px;
+    padding-left: 0px;
+    padding: 25px, 25px;
+    padding-top: 45px;
 } 
 
 /* Elementos com o ID "subtitulo" */

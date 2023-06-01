@@ -4,7 +4,7 @@
     padding: 0;
 }
 /*formatação das imagens que estão no cabeçalho*/
-.img{
+.img {
     display: inline-block;
     border-radius: 50%;
     object-fit: cover;
@@ -14,7 +14,6 @@
     width: 95px;
     height:95px;
     text-align: center;
-    padding: 5px;
    
 }
 

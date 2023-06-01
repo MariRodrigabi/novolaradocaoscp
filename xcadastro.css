@@ -5,25 +5,23 @@
 }
 /*formatação das imagens que estão no cabeçalho*/
 .img{
-    font-family: sans-serif;
-    color: rgb(255, 255, 255);
-    margin-left: 7%;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    border-color:black;
+    border-style: double;
+    width: 95px;
+    height:95px;
+    text-align: center;
+    padding: 5px;
 }
 
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
-    text-align: center;
-    background-color: rgb(47, 187, 117);
-    color:rgb(255, 255, 255);
-    font-size:45px; 
-    font-weight:bold;
-    width: 889px;
-    height: 105px;
-    margin-left: 460px;
-    padding-left: 0px;
-    padding: 25px, 25px;
-    padding-top: 45px;
+    color: rgb(255, 255, 255);
+    margin-left: 7%;
 } 
 
 /* Elementos com o ID "subtitulo" */
